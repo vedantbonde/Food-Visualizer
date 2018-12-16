@@ -1,16 +1,16 @@
 {
   materials: [
     {
-      name: 'mat8',
+      name: '795548',
       parameters: [
         {
           baseColor: null,
         },
         {
           baseColorTint: [
-            0.95999999999999996,
-            0.26000000000000001,
-            0.20999999999999999,
+            0.47450999999999999,
+            0.33333299999999999,
+            0.28235300000000002,
             1,
           ],
         },
@@ -27,16 +27,16 @@
       source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
     },
     {
-      name: 'mat9',
+      name: '8BC34A',
       parameters: [
         {
           baseColor: null,
         },
         {
           baseColorTint: [
-            0.55000000000000004,
-            0.76000000000000001,
-            0.28999999999999998,
+            0.54509799999999997,
+            0.764706,
+            0.29019600000000001,
             1,
           ],
         },
@@ -53,16 +53,16 @@
       source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
     },
     {
-      name: 'mat12',
+      name: 'DD9944',
       parameters: [
         {
           baseColor: null,
         },
         {
           baseColorTint: [
-            1,
-            0.92000000000000004,
-            0.23000000000000001,
+            0.86666699999999997,
+            0.59999999999999998,
+            0.26666699999999999,
             1,
           ],
         },
@@ -79,16 +79,16 @@
       source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
     },
     {
-      name: 'mat18',
+      name: 'F44336',
       parameters: [
         {
           baseColor: null,
         },
         {
           baseColorTint: [
-            1,
-            0.80000000000000004,
-            0.53000000000000003,
+            0.95686300000000002,
+            0.26274500000000001,
+            0.21176500000000001,
             1,
           ],
         },
@@ -105,16 +105,42 @@
       source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
     },
     {
-      name: 'mat20',
+      name: 'FF5722',
       parameters: [
         {
           baseColor: null,
         },
         {
           baseColorTint: [
-            0.46999999999999997,
-            0.33000000000000002,
-            0.28000000000000003,
+            1,
+            0.34117599999999998,
+            0.13333300000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'FF9800',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            1,
+            0.596078,
+            0,
             1,
           ],
         },
@@ -137,10 +163,10 @@
       'Orientation',
     ],
     collision: {},
-    file: 'sampledata/model.obj',
-    name: 'model',
+    file: 'sampledata/Hamburger_01.obj',
+    name: 'Hamburger_01',
     recenter: 'root',
-    scale: 0.029701999999999999,
+    scale: 0.0019701999999999999,
   },
   version: '0.54:1',
 }

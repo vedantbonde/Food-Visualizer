@@ -33,16 +33,16 @@ public class FoodDisplay extends AppCompatActivity {
         Intent intent = getIntent();
         String item = intent.getExtras().getString("item");
 
-        Uri uri;
+        Uri uri = Uri.parse("pizza.sfb");
 
         if(item == "pizza") {
             uri = Uri.parse("pizza.sfb");
         } else if(item == "lobster") {
             uri = Uri.parse("LobsterTail.sfb");
         } else if(item == "threetaco") {
-            uri = Uri.parse("three-tacos.sfb");
-        } else {
-            uri = Uri.parse("hotdog.sfb");
+            uri = Uri.parse("threetacos.sfb");
+        } else if(item == "ham"){
+            uri = Uri.parse("ham.sfb");
         }
 
 

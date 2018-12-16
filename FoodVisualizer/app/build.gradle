@@ -46,22 +46,23 @@ dependencies {
 apply plugin: 'com.google.ar.sceneform.plugin'
 
 
-sceneform.asset('sampledata/pizza.obj',
+
+sceneform.asset('sampledata/Hamburger_01.obj',
         'default',
-        'sampledata/pizza.sfa',
-        'src/main/assets/pizza')
+        'sampledata/Hamburger_01.sfa',
+        'src/main/assets/ham')
 
 sceneform.asset('sampledata/LobsterTail.obj',
         'default',
         'sampledata/LobsterTail.sfa',
         'src/main/assets/LobsterTail')
 
-sceneform.asset('sampledata/hotdog.obj',
+sceneform.asset('sampledata/pizza.obj',
         'default',
-        'sampledata/hotdog.sfa',
-        'src/main/assets/hotdog')
+        'sampledata/pizza.sfa',
+        'src/main/assets/pizza')
 
 sceneform.asset('sampledata/model.obj',
         'default',
         'sampledata/model.sfa',
-        'src/main/assets/three-tacos')
+        'src/main/assets/threetacos')
