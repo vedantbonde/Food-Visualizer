@@ -6,12 +6,58 @@
     android:layout_height="match_parent"
     tools:context=".FoodList" >
 
-    <Button android:id="@+id/button"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Display"
-        android:onClick="foodDisplay"
+        android:onClick="pizzaDisplay"
+        android:text="Pizza"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="49dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:onClick="LobsterDisplay"
+        android:text="Lobster Tail"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="47dp"
+        android:onClick="threeTacoDisplay"
+        android:text="Pack of 3 Tacos"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="93dp"
+        android:onClick="hamDisplay"
+        android:text="Hamburger"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <!--<android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
 
 </RelativeLayout>

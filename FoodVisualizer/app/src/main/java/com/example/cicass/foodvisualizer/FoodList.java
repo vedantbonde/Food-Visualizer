@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 
 public class FoodList extends AppCompatActivity {
 
@@ -19,8 +20,27 @@ public class FoodList extends AppCompatActivity {
         getSupportActionBar().hide();
     }
 
-    public void foodDisplay(View view) {
+    public void pizzaDisplay(View view) {
         Intent foodDisplay = new Intent(this, FoodDisplay.class);
+        foodDisplay.putExtra("item", "pizza");
+        startActivity(foodDisplay);
+    }
+
+    public void LobsterDisplay(View view) {
+        Intent foodDisplay = new Intent(this, FoodDisplay.class);
+        foodDisplay.putExtra("item", "lobster");
+        startActivity(foodDisplay);
+    }
+
+    public void threeTacoDisplay(View view) {
+        Intent foodDisplay = new Intent(this, FoodDisplay.class);
+        foodDisplay.putExtra("item", "threetaco");
+        startActivity(foodDisplay);
+    }
+
+    public void hamDisplay(View view) {
+        Intent foodDisplay = new Intent(this, FoodDisplay.class);
+        foodDisplay.putExtra("item", "ham");
         startActivity(foodDisplay);
     }
 }
