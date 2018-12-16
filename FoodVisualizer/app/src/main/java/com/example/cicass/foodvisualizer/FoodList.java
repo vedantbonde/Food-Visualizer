@@ -13,6 +13,12 @@ public class FoodList extends AppCompatActivity {
         setContentView(R.layout.activity_food_list);
     }
 
+    protected void onResume() {
+        super.onResume();
+
+        getSupportActionBar().hide();
+    }
+
     public void foodDisplay(View view) {
         Intent foodDisplay = new Intent(this, FoodDisplay.class);
         startActivity(foodDisplay);
